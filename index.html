@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Books Management App</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<!-- CUSTOM STYLES -->
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- CUSTOM JS -->
+	<!-- <script type="text/javascript" src="JS/config.js"></script> -->
+	<script type="text/javascript" src="JS/scripts.js"></script>
+
+</head>
+
+<body>
+	<!--  -->
+	<!-- Navbar -->
+	<!--  -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Books</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+	<!-- Displaying the Books -->
+
+	<div class="container">
+		<div class="row bookLabel">
+			<div class="col-4" id="booksauthor"></div>
+			<div class="col-4" id="booksbirthday"></div>
+			<div class="col-4" id="booksbirthPlace"></div>
+		</div>
+		<div class="row">
+			<div class="bookLabel">
+				<h1 id="booksListLabel"></h1>
+			</div>
+			<div id="books-grid">
+				<!-- Jquery get us the books posters! Need a place to put the poster images -->
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
